@@ -204,6 +204,11 @@ body {
   width: 100%;
 }
 
+.author:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+}
+
 .author-info .details-info {
   text-decoration: none;
   margin-top: 20px;
@@ -378,7 +383,12 @@ body {
 .cushion-img {
   height: 370px;
   width: 380px;
-  transition-timing-function: ease cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: 0.3s;
+}
+
+.cushion-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .cushion {
@@ -662,4 +672,24 @@ body {
 .footer-img {
   width: 45%;
   margin-left: 30px;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.cushion-img:hover {
+  animation: shake 500ms ease-in-out forwards;
 }
