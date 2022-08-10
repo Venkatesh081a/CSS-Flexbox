@@ -178,7 +178,7 @@ body {
 }
 
 .item p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   margin-bottom: 5px;
 }
