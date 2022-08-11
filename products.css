@@ -114,6 +114,7 @@ body {
   color: white;
   padding: 4px 14px;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .cushion-seller {
@@ -124,6 +125,18 @@ body {
   color: white;
   padding: 4px 14px;
   font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cushion-rated {
+  font-size: 15px;
+  background-color: #fe1313;
+  position: absolute;
+  top: -10px;
+  color: white;
+  padding: 4px 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .nav-container {

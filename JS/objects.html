@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <p id="display"></p>
+    <script>
+      const customer = {
+        name: "Venkatesh",
+        acnt_num: 24116625,
+        location: "Bangalore",
+      };
+      customerDetails = `Given Customer Details are :: Name : ${customer.name} , Account Num : ${customer.acnt_num} and location is ${customer.location}`;
+      document.getElementById("display").innerHTML = customerDetails;
+    </script>
+  </body>
+</html>
