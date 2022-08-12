@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigator</title>
+  </head>
+  <body>
+    <h2>Navigator Object Provides information about the browser ...</h2>
+    <button onclick="browserInfo()">Browser Information</button>
+    <p id="display"></p>
+
+    <script>
+      function browserInfo() {
+        isCookieEnabled = navigator.cookieEnabled;
+        platform = navigator.platform;
+        lang = navigator.language;
+
+        data = `Is Cookie Enabled : ${isCookieEnabled} <br> Plaform : ${platform} <br> Language : ${lang}`;
+        document.getElementById("display").innerHTML = data;
+      }
+    </script>
+  </body>
+</html>

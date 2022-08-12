@@ -8,8 +8,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.main-container {
-  border-top: 5px solid #c9adc6;
+.img-container {
+  width: 100%;
 }
 
 .nav-container {
@@ -28,7 +28,14 @@ body {
 }
 
 .navlinks a {
-  color: rgb(184, 149, 149);
+  /* color: rgb(184, 149, 149); */
+  color: black;
+  font-weight: 500;
+}
+
+.navlinks a:hover {
+  color: rgb(25, 206, 25);
+  font-weight: 550;
 }
 
 .main-logo {
@@ -57,6 +64,7 @@ body {
 
 .card {
   background-color: #b08ead;
+  /* background-color: #e47a2e; */
   width: 450px;
   height: 420px;
   margin-top: 169px;
@@ -151,7 +159,8 @@ body {
 }
 
 .designer-details h4 {
-  color: #b08ead;
+  /* color: #b08ead; */
+  color: #91288b;
   margin-left: 420px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -197,6 +206,8 @@ body {
   height: 430px;
   width: 375px;
   background-color: #c9adc6;
+  /* background-color: #121f38; */
+  /* background-color: #91288b; */
   cursor: pointer;
 }
 
@@ -230,6 +241,7 @@ body {
 
 .aboutme-info {
   background-color: #c9adc6;
+  /* background-color: #121f38; */
   width: 100%;
   height: 750px;
   display: flex;
@@ -356,6 +368,7 @@ body {
 
 .buynow-info {
   background-color: #c9adc6;
+  /* background-color: #121f38; */
   width: 100%;
   height: 750px;
   display: flex;
@@ -421,7 +434,9 @@ body {
 }
 
 .form-details {
-  background-color: #ceb3cb;
+  /* background-color: #ceb3cb; */
+  /* background-color: #edf5f7; */
+  background-color: white;
   width: 100%;
   height: 620px;
   display: flex;
@@ -443,11 +458,28 @@ body {
   margin-left: 70px;
 }
 
+.user-form form input {
+  border: 5px solid #edf5f7;
+  background-color: #edf5f7;
+}
+
+.user-form form textarea {
+  border: 5px solid #edf5f7;
+  background-color: #edf5f7;
+}
+
+.user-form form input:focus {
+  outline: solid 2px #f3b083;
+}
+
+.user-form form textarea:focus {
+  outline: solid 2px #f3b083;
+}
 .support-detaills .email {
   font-size: 15px;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-weight: bold;
   letter-spacing: 1.5px;
   line-height: 1.5;
@@ -457,7 +489,7 @@ body {
 
 .support-detaills .emailaddress {
   font-size: 21px;
-  color: white;
+  color: black;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 30px;
@@ -467,7 +499,7 @@ body {
 
 .support-detaills .phone {
   text-transform: uppercase;
-  color: white;
+  color: black;
   letter-spacing: 1.5px;
   line-height: 1.5;
   font-weight: bold;
@@ -477,7 +509,7 @@ body {
 .support-detaills .phonenumber {
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-family: "Cormorant Garamond", sans-serif;
   display: inline-block;
@@ -488,7 +520,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: black;
   line-height: 1.5;
   letter-spacing: 1.5px;
   margin-bottom: 8px;
@@ -496,7 +528,7 @@ body {
 
 .support-detaills .address-details {
   font-size: 22px;
-  color: white;
+  color: black;
   line-height: 1.5;
   letter-spacing: 1.5px;
 }
@@ -505,7 +537,7 @@ body {
   font-size: 15px;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-weight: bold;
   letter-spacing: 1.5px;
   line-height: 1.5;
@@ -516,7 +548,7 @@ body {
 .user-form .contact-message {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: black;
   letter-spacing: 1px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -525,17 +557,17 @@ body {
 .forminput {
   width: 300px;
   height: 50px;
-  color: white;
+  color: black;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  border: 1.3px solid white;
+  border: 1.3px solid black;
   margin-right: 35px;
   margin-bottom: 30px;
   background-color: transparent;
 }
 
 ::placeholder {
-  color: white;
+  color: rgb(103, 101, 101);
   padding: 20px 20px;
 }
 
@@ -543,23 +575,26 @@ body {
   background-color: transparent;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  border: 1.3px solid white;
+  color: black;
   margin-bottom: 25px;
 }
 
 .btn-submit {
-  width: 30%;
+  width: 20%;
   height: 50px;
-  background-color: transparent;
-  border: 1.3px solid white;
+  background-color: #f76707;
+  border: 1px solid #f76707;
   color: white;
   font-size: 16px;
   font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .btn-submit:hover {
   background-color: white;
-  color: #b08ead;
+  color: black;
 }
 
 .promotiondetails-container {
@@ -571,7 +606,8 @@ body {
 
 .promotiondetails-container .newsletter {
   text-transform: uppercase;
-  color: #b08ead;
+  /* color: #b08ead; */
+  color: #e47a2e;
   font-weight: bold;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -583,7 +619,9 @@ body {
 .updates {
   text-align: center;
   font-size: 25px;
-  color: #7c707b;
+  font-family: "Great Vibes", cursive;
+  /* color: #7c707b; */
+  color: #121f38;
   line-height: 1.5;
   letter-spacing: 1.5px;
   margin-bottom: 18px;
@@ -596,7 +634,7 @@ body {
 }
 
 .subscription-form ::placeholder {
-  color: #b08ead;
+  color: #533750;
   font-size: 16px;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -615,23 +653,34 @@ body {
   width: 15%;
   height: 60px;
   color: white;
-  background-color: #b08ead;
+  /* background-color: #b08ead; */
+  background-color: #e47a2e;
   border: none;
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-subscribe:hover {
+  background-color: white;
+  color: #e47a2e;
+  border: 3px solid #e47a2e;
 }
 
 .item-logo-container {
   width: 100%;
   height: 250px;
-  background-color: #d6bbd3;
+  /* background-color: #d6bbd3; */
+  background-color: #121f38;
   display: flex;
   justify-content: space-evenly;
 }
 
 .image-container {
   margin-top: 30px;
-  background-color: #ba9fb7;
+  /* background-color: #ba9fb7; */
+  /* background-color: #121f38; */
+  background-color: #f76707;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -651,7 +700,8 @@ body {
 }
 
 .footer {
-  background-color: #c9adc6;
+  /* background-color: #c9adc6; */
+  background-color: #121f38;
   width: 100%;
   height: 150px;
 }
