@@ -205,8 +205,9 @@ body {
 .author {
   height: 430px;
   width: 375px;
-  background-color: #c9adc6;
-  /* background-color: #121f38; */
+  /* background-color: #c9adc6; */
+  /* background-color: #17a2b8; */
+  background-color: #454242;
   /* background-color: #91288b; */
   cursor: pointer;
 }
@@ -227,15 +228,18 @@ body {
   font-size: 25px;
   margin-bottom: 10px;
   display: block;
-  color: white;
+  color: rgb(205, 168, 2);
+  font-weight: 500;
+  /* color: black; */
 }
 
 .author-info .learn-more {
   margin-left: 30px;
   font-size: 17.5px;
-  color: white;
+  color: rgb(205, 168, 2);
+  /* color: black; */
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: italic;
 }
 
@@ -275,7 +279,7 @@ body {
 
 .begining-info h4 {
   font-size: 16px;
-  color: #c9adc6;
+  /* color: #c9adc6; */
   font-weight: bold;
   letter-spacing: 2px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -301,7 +305,7 @@ body {
 }
 
 .Info {
-  border: 18px solid #c9adc6;
+  /* border: 18px solid #c9adc6; */
   margin-right: 25px;
 }
 
@@ -316,7 +320,7 @@ body {
 .career-image {
   width: 100%;
   margin-left: 40px;
-  border: 15px solid #c9adc6;
+  /* border: 15px solid #c9adc6; */
 }
 
 .career-info {
@@ -327,7 +331,7 @@ body {
 
 .career-info h4 {
   font-size: 16px;
-  color: #c9adc6;
+  /* color: #c9adc6; */
   font-weight: bold;
   letter-spacing: 2px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -742,4 +746,16 @@ body {
 
 .cushion-img:hover {
   animation: shake 500ms ease-in-out forwards;
+}
+
+.homestay {
+  margin-left: 30px;
+}
+
+.cushion-curated {
+  margin-bottom: 40px;
+}
+.curated-cushion {
+  /* width: 100%; */
+  margin-left: 30px;
 }

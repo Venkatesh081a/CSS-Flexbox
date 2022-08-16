@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Promises ...</h2>
+    <p id="display"></p>
+    <script>
+      const success = (msg) => alert("Success " + msg);
+      const failure = (msg) => alert("Failed " + msg);
+
+      const promise = (age) => {
+        return new Promise(function (resolve, reject) {
+          if (age > 18)
+            resolve("You are eligible for voting , pls go ahead ...");
+          else reject("Sorry , You are not eligible for voting ...");
+        });
+      };
+
+      promise(20).then(success, failure);
+    </script>
+  </body>
+</html>

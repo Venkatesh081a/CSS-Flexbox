@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Spred Operator ...</h2>
+    <button onclick="displayFruits()">Display Fruits</button>
+    <p id="display"></p>
+
+    <script>
+      function displayFruits() {
+        fruitsList = ["Apple", "Orange", "Banana", "Pomegranate"];
+        fruits = ["Pineapple", ...fruitsList];
+        data = "<ul>";
+        for (fruit of fruits) {
+          data += "<li>" + fruit + "</li>";
+        }
+        data += "</ul>";
+        document.getElementById("display").innerHTML = data;
+      }
+    </script>
+  </body>
+</html>
