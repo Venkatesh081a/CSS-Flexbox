@@ -138,6 +138,28 @@ body {
   letter-spacing: 1px;
 }
 
+.cushion-pricedrop {
+  font-size: 15px;
+  background-color: #06673a;
+  position: absolute;
+  top: -10px;
+  color: white;
+  padding: 4px 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cushion-new {
+  font-size: 15px;
+  background-color: rgb(244, 227, 78);
+  position: absolute;
+  top: -10px;
+  color: black;
+  padding: 4px 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
 .nav-container {
   display: flex;
   align-items: center;

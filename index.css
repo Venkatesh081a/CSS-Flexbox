@@ -207,7 +207,7 @@ body {
   width: 375px;
   /* background-color: #c9adc6; */
   /* background-color: #17a2b8; */
-  background-color: #454242;
+  background-color: #333333;
   /* background-color: #91288b; */
   cursor: pointer;
 }
@@ -228,7 +228,7 @@ body {
   font-size: 25px;
   margin-bottom: 10px;
   display: block;
-  color: rgb(205, 168, 2);
+  color: rgb(248, 210, 41);
   font-weight: 500;
   /* color: black; */
 }
@@ -269,7 +269,7 @@ body {
   justify-content: space-around;
   gap: 70px;
   padding: 40px 0px;
-  border-bottom: 1.7px solid #c9adc6;
+  /* border-bottom: 1.7px solid #c9adc6; */
   /* margin-bottom: 20px; */
 }
 .begining-info {
